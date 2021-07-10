@@ -3,7 +3,7 @@ import './card-list.styles.css';
 import {Card} from '../card/card.component';
 
 export const CardList = props => {
-    console.log(props.monsters, "monsters");
+    // console.log(props.monsters, "monsters");
     return (
         <div className="card-list">
             {props.monsters.map((monster) => (
